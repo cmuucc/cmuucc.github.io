@@ -132,7 +132,7 @@ main{-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out;-ms-
 
 /* SEARCH BOX */
 .search-box{ width: 100%; height: 300px; position: fixed; left: 0; top: -300px; z-index: 9;}
-.search-box .search-content{ width: 100%; height: 100%; display: flex; flex-direction: row; background:url(../images/pattern-blue.png); background-size: 300px 300px; color: #fff;}
+.search-box .search-content{ width: 100%; height: 100%; display: flex; flex-direction: row; background:url(Images/pattern-blue.png); background-size: 300px 300px; color: #fff;}
 .search-box .inner{ width: 100%; display: flex; flex-direction: column; justify-content: center; text-align: center; padding: 0 20%;}
 .search-box .inner form{ width: 100%; float: left; margin-bottom: 40px; background: #fff; box-shadow: 0 15px 30px rgba(0,0,0,0.10), 0 8px 30px rgba(0,0,0,0.10);}
 .search-box .inner form:hover button[type="submit"]{border-left: 1px solid rgba(0,0,0,0.4);}
@@ -167,7 +167,7 @@ main{-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out;-ms-
 
 
 /* INFO BAR */
-.info-bar{ width: 100%; float: left; padding: 60px 0; background:url(../images/pattern-blue.png); background-size: 300px 300px;}
+.info-bar{ width: 100%; float: left; padding: 60px 0; background:url(Images/pattern-blue.png); background-size: 300px 300px;}
 .info-bar img{ float: left; width: 70px; margin-right: 30px;}
 .info-bar h3{ float: left; color: #fff; font-size: 30px; margin: 0;}
 .info-bar span{ float: right; color: #fff; margin: 0 20px; margin-top: 25px; opacity: 0.7;}
@@ -178,7 +178,7 @@ main{-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out;-ms-
 
 
 /* INNER HERO */
-.inner-hero{ width: 100%; float: left; padding: 0 60px; padding-top: 160px; padding-bottom:80px; background: url(../images/pattern-blue.png) no-repeat; background-size: cover; color: #fff; position: relative;}
+.inner-hero{ width: 100%; float: left; padding: 0 60px; padding-top: 160px; padding-bottom:80px; background: url(Images/pattern-blue.png) no-repeat; background-size: cover; color: #fff; position: relative;}
 .inner-hero:after{content: ""; width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: #131314; opacity: 0.3; }
 .inner-hero .container-fluid{position: relative; z-index: 2;}
 .inner-hero h4{ font-size: 60px; font-weight: 600; margin-top: 0; margin-bottom: 20px; line-height: 1; letter-spacing: -4px;}
@@ -275,13 +275,13 @@ main{-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out;-ms-
 
 
 /* SIDE CONTENT */
-.side-content{background:url(../images/pattern-dark.png); background-size: 300px 300px; color: #fff;}
+.side-content{background:url(Images/pattern-dark.png); background-size: 300px 300px; color: #fff;}
 .side-content:after{display: none;}
 
 
 
 /* ICON FEATURES */
-.icon-features{width: 100%; float: left; background:url(../images/pattern-blue.png); background-size: 300px 300px; color: #fff;}
+.icon-features{width: 100%; float: left; background:url(Images/pattern-blue.png); background-size: 300px 300px; color: #fff;}
 .icon-features *{-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out; -ms-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out;}
 .icon-features h2{margin-bottom: 60px;}
 .icon-features .icon{ width: 100%; float:left; text-align: center; padding: 0 20%; position: relative;}
@@ -361,7 +361,7 @@ main{-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out;-ms-
 
 
 /* FEATURED NEWS */
-.featured-news{ width: 100%; float: left; margin-bottom: 100px; padding-bottom: 0 !important; background:url(../images/pattern-dark.png); background-size: 300px 300px;}
+.featured-news{ width: 100%; float: left; margin-bottom: 100px; padding-bottom: 0 !important; background:url(Images/pattern-dark.png); background-size: 300px 300px;}
 .featured-news .news-box{ width: 100%; float: left; position: relative; background: #131314; box-shadow: 0 15px 30px rgba(0,0,0,0.10), 0 8px 30px rgba(0,0,0,0.10); margin-bottom: -100px;}
 .featured-news .news-box img{ width: 100%; opacity: 0.5;}
 .featured-news .news-box figcaption{ width: 100%; float: left; position: absolute; left: 0; bottom: 0; padding:20px; color: #fff; z-index: 2;}
